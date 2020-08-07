@@ -1,0 +1,56 @@
+/* Link Google Fonts - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+
+  /* Alinhamento Horizontal */
+  justify-content: center;
+
+  /* Alinhamento Vertical */
+  align-items: center;
+
+  /* O body ocupa a tela toda   */
+  height: 100vh;
+  background-color: black;
+  background-attachment: fixed;
+
+  /* cover é para nunca deixar espaço sem imagem*/
+  background-size: cover;
+
+  background-position: center;
+}
+
+/* Box onde fica a hora e o período do dia */
+.container {
+  display: flex;
+
+  flex-direction: column;
+
+  /* Alinhamento Horizontal */
+  justify-content: center;
+
+  /* Alinhamento Vertical */
+  align-items: center;
+
+  /* Tamanho da div para caber a hora */
+  width: 700px;
+  height: 700px;
+  color: white;
+}
+
+/* ---------------------Hora ---------------- */
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 165px;
+}
+
+/* -------------Período do dia --------------- */
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 80px;
+}
